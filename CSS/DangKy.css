@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0 auto;}
+
+#outer
+{
+	width:100%;
+	height:500px;
+}
+
+header
+{
+	width:100%;
+	height:80px;
+	border-bottom:1px solid #CCC;
+	background-color:#FFF;
+}
+
+#phan1
+{
+	width:300px;
+	height:auto;
+	float:right;
+	padding-top:20px;
+}
+
+#phu
+{
+	padding-right:30px;
+}
+
+#giohang
+{
+	position: absolute;
+	top:10px;
+}
+
+#nav1
+{
+	width:100%;
+	height:80px;
+	float:left;
+	border-bottom:1px solid #CCC;
+		background-color:#FFF;
+}
+
+#ulnav1
+{
+	list-style-type:none;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+#aphan1
+{
+	color:#999;
+}
+
+#a_ulnav1
+{
+	color:#000;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bolder;
+}
+
+#nav1 li
+{
+	float:left;
+	padding-right:50px;
+	width:170px;
+	height:50px;
+	padding-top:30px;
+	text-align:center;
+	padding-left:30px;
+	margin-left:2px;
+}
+
+#noidung
+{
+	width:400px;
+	height:auto;
+	margin-left:500px;
+}
+
+button
+{
+	width:150px;
+	height:40px;
+	background-color:#F90;
+	border:1px solid #F90;
+	border-radius:5px;
+	color:#FFF;
+	font-weight:bold;
+	font-size:18px;
+	float:right;
+}
+
+#gachchan
+{
+	text-decoration:underline;
+}
+
+#header_nav
+{
+		position:fixed;
+		top:0;
+		width:100%
+}
+
+section
+{
+	width:100%;
+	height:500px;
+	margin-top:162px;
+}
+
+footer
+{
+	width:100%;
+	height:auto;
+	background-color:#000;
+	color:#FFF;
+	position:absolute;
+	top:450px;
+}
+
+#a_footer
+{
+	color:#FFF;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#div_footer
+{
+	padding-top:5px;
+}

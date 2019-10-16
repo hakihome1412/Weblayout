@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0 auto;}
+
+#outer
+{
+	width:100%;
+	height:1750px;
+}
+
+header
+{
+	width:100%;
+	height:80px;
+	border-bottom:1px solid #CCC;
+	background-color:#FFF;
+}
+
+#phan1
+{
+	width:300px;
+	height:auto;
+	float:right;
+	padding-top:25px;
+}
+
+#phu
+{
+	padding-right:30px;
+}
+
+#giohang
+{
+	position: absolute;
+	top:10px;
+}
+
+#nav1
+{
+	width:100%;
+	height:80px;
+	float:left;
+	border-bottom:1px solid #CCC;
+	background-color:#FFF;
+}
+
+ul
+{
+	list-style-type:none;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+#aphan1
+{
+	color:#999;
+}
+
+#a_ulnav1
+{
+	color:#000;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bolder;
+}
+
+#ulnav1 li
+{
+	float:left;
+	padding-right:50px;
+	width:170px;
+	height:50px;
+	padding-top:30px;
+	text-align:center;
+	padding-left:30px;
+	margin-left:2px;
+}
+
+#header_nav
+{
+		position:fixed;
+		top:0;
+		width:100%
+}
+
+section
+{
+	width:100%;
+	height:1500px;
+	margin-top:162px;
+}
+
+footer
+{
+	width:100%;
+	height:auto;
+	background-color:#000;
+	color:#FFF;
+	position:absolute;
+	top:1800px;
+}
+
+#a_footer
+{
+	color:#FFF;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#div_footer
+{
+	padding-top:5px;
+}
+
+#ulnav1_cap2
+{
+	display:none;
+}
+
+#ulnav1 li:hover
+{
+	border-bottom:2px solid #F00;
+}
+
+#ulnav1 li:hover #ulnav1_cap2
+{
+	display:block;
+}
+
+#ulnav1 li:hover #ulnav1_cap2 li
+{
+	background-color:#000;
+	margin-right:500px;
+}
+
+#ulnav1 li:hover #ulnav1_cap2 li:hover #a_licap2
+{
+	color:#F00;
+}
+
+#a_licap2
+{
+	color:#FFF;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bolder;
+}
+
+#noidung
+{
+	height:auto;
+	text-align:center;
+}
+
+#nav2
+{
+	width:20%;
+	height:500px;
+	padding:10px;
+	float:left;
+}
+
+
+#here
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:24px;
+}
+
+#a_ulnav2
+{
+	color:#000;
+}
+
+#a_ulnav2:hover
+{
+	color:#999;
+}
+
+#ulnav2 > li
+{
+	margin-top:20px;
+}
+
+#a_filteroption
+{
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+#a_ul_brand_cap2
+{
+	color:#000;
+}
+
+#a_ul_brand_cap2:hover
+{
+	color:#999;
+}
+
+#table_nav td
+{
+	border:1px solid #000;
+}
+
+#table_nav td:hover
+{
+	background-color:#0CF;
+}
+
+#a_size
+{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+}
+
+#table_section
+{
+	width:75%;
+	height:1500px;
+	float:left;
+}
+
+#table_section td
+{
+	width:210px;
+	height:300px;
+	padding:4px;
+}
+
+
+#table_section td:hover
+{
+	border:1px solid #000;
+}
+
+#tensanpham
+{
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+}
+
+#giatien
+{
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+ul li a
+{
+	font-family:Arial, Helvetica, sans-serif;
+}
